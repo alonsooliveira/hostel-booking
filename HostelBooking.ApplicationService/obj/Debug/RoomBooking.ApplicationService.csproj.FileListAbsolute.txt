@@ -1,7 +1,0 @@
-D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.ApplicationService.dll
-D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.ApplicationService.pdb
-D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.Domain.dll
-D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.Domain.pdb
-D:\Projects\RoomBooking\RoomBooking.ApplicationService\obj\Debug\RoomBooking.ApplicationService.csprojResolveAssemblyReference.cache
-D:\Projects\RoomBooking\RoomBooking.ApplicationService\obj\Debug\RoomBooking.ApplicationService.dll
-D:\Projects\RoomBooking\RoomBooking.ApplicationService\obj\Debug\RoomBooking.ApplicationService.pdb
