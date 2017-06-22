@@ -1,0 +1,14 @@
+D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.ApplicationService.dll
+D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.ApplicationService.pdb
+D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.Domain.dll
+D:\Projects\RoomBooking\RoomBooking.ApplicationService\bin\Debug\RoomBooking.Domain.pdb
+D:\Projects\RoomBooking\RoomBooking.ApplicationService\obj\Debug\HostelBooking.ApplicationService.csprojResolveAssemblyReference.cache
+D:\Projects\RoomBooking\RoomBooking.ApplicationService\obj\Debug\RoomBooking.ApplicationService.dll
+D:\Projects\RoomBooking\RoomBooking.ApplicationService\obj\Debug\RoomBooking.ApplicationService.pdb
+D:\Projects\HostelBooking\HostelBooking.ApplicationService\bin\Debug\HostelBooking.ApplicationService.dll
+D:\Projects\HostelBooking\HostelBooking.ApplicationService\bin\Debug\HostelBooking.ApplicationService.pdb
+D:\Projects\HostelBooking\HostelBooking.ApplicationService\bin\Debug\HostelBooking.Domain.dll
+D:\Projects\HostelBooking\HostelBooking.ApplicationService\bin\Debug\HostelBooking.Domain.pdb
+D:\Projects\HostelBooking\HostelBooking.ApplicationService\obj\Debug\HostelBooking.ApplicationService.csprojResolveAssemblyReference.cache
+D:\Projects\HostelBooking\HostelBooking.ApplicationService\obj\Debug\HostelBooking.ApplicationService.dll
+D:\Projects\HostelBooking\HostelBooking.ApplicationService\obj\Debug\HostelBooking.ApplicationService.pdb
