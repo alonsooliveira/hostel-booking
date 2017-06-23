@@ -9,20 +9,12 @@ namespace HostelBooking.Api.Controllers
 {
     public class BaseController : Controller
     {
-        private readonly IUoW _uow;
-
-        public BaseController(IUoW uow)
-        {
-            _uow = uow;
-        }
-
         public async Task<IActionResult> Response(object result, IEnumerable<string> notifications)
         {
             if (notifications.Any())
             {
                 try
                 {
-                    _uow.Commit();
                     return Ok(new
                     {
                         success = true,

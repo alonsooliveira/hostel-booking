@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppService\IGuestAppService.cs" />
     <Compile Include="AppService\IRoomAppService.cs" />
     <Compile Include="Base\Entity.cs" />
+    <Compile Include="Base\Settings.cs" />
     <Compile Include="Entities\Book.cs" />
     <Compile Include="Entities\Guest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

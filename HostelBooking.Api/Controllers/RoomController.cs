@@ -13,7 +13,7 @@ namespace HostelBooking.Api.Controllers
     {
         private readonly IRoomAppService _app;
 
-        public RoomController(IRoomAppService app, IUoW uow) : base(uow)
+        public RoomController(IRoomAppService app) 
         {
             _app = app;
         }

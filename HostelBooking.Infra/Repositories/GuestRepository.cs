@@ -1,9 +1,5 @@
 ﻿using HostelBooking.Domain.Repositories;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using HostelBooking.Domain.Entities;
 using HostelBooking.Infra.Context;
 using System.Data.Entity;
@@ -19,19 +15,10 @@ namespace HostelBooking.Infra.Repositories
             _context = context;
         }
 
-        public Guest Get(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Save(Guest guest)
-        {
-            _context.Entry(guest).State = EntityState.Added;
-        }
-
-        public void Update(Guest guest)
-        {
-            _context.Entry(guest).State = EntityState.Modified;
-        }
+        public Guest Get(int id) => _context.Guests.FirstOrDefault(x => x.Id == id);
+       
+        public void Save(Guest guest) => _context.Entry(guest).State = EntityState.Added;
+        
+        public void Update(Guest guest) => _context.Entry(guest).State = EntityState.Modified;   
     }
 }

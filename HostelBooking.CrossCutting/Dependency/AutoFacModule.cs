@@ -17,9 +17,11 @@ namespace HostelBooking.CrossCutting.Dependency
             builder.RegisterType<HostelBookingDataContext>().As<HostelBookingDataContext>().SingleInstance();
             builder.RegisterType<UoW>().As<IUoW>();
             builder.RegisterType<RoomRepository>().As<IRoomRepository>();
+            builder.RegisterType<GuestRepository>().As<IGuestRepository>();
 
             /* App Service */
             builder.RegisterType<RoomAppService>().As<IRoomAppService>();
+            builder.RegisterType<GuestAppService>().As<IGuestAppService>();
         }
     }
 }
