@@ -24,6 +24,11 @@ namespace HostelBooking.ApplicationService.AppService
             return _repository.Get(id);
         }
 
+        public Guest GetByEmail(string email)
+        {
+            return _repository.GetByEmail(email);
+        }
+
         public void Save(Guest guest)
         {
             _repository.Save(guest);

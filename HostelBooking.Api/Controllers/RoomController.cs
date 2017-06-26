@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using HostelBooking.Domain.AppService;
 using HostelBooking.Domain.Repositories.Transaction;
 using HostelBooking.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HostelBooking.Api.Controllers
 {
@@ -20,6 +21,7 @@ namespace HostelBooking.Api.Controllers
 
         [HttpPost]
         [Route("v1/rooms")]
+        [AllowAnonymous]
         public async Task<IActionResult> Post([FromBody]Room room)
         {
             _app.Save(room);

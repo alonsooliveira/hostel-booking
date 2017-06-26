@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\HostelBookingDataContext.cs" />
+    <Compile Include="Mappings\BookMap.cs" />
     <Compile Include="Mappings\GuestMap.cs" />
     <Compile Include="Mappings\RoomMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

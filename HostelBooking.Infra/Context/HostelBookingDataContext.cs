@@ -15,7 +15,7 @@ namespace HostelBooking.Infra.Context
 
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Guest> Guests { get; set; }
-        //public DbSet<Book> Books { get; set; }
+        public DbSet<Book> Books { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -24,6 +24,7 @@ namespace HostelBooking.Infra.Context
             base.OnModelCreating(modelBuilder);
             modelBuilder.Configurations.Add(new RoomMap());
             modelBuilder.Configurations.Add(new GuestMap());
+            modelBuilder.Configurations.Add(new BookMap());
         }
     }
 }
