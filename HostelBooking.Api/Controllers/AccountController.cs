@@ -78,7 +78,7 @@ namespace HostelBooking.Api.Controllers
         [HttpPost]
         [AllowAnonymous]
         [Route("v1/register")]
-        public async Task<IActionResult> Register([FromForm] Guest guest)
+        public async Task<IActionResult> Register([FromBody]Guest guest)
         {
             _app.Save(guest);
             return await Response("", new[] { "Guest Registered." });

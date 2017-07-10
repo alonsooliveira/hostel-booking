@@ -1,20 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace HostelBooking.Domain.Entities
 {
     public class User
     {
-        public string Email { get; private set; }
-        public string Password { get; private set; }
-        public bool Active { get; private set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public bool Active { get; set; }
 
         public bool Authenticate(string email, string password)
         {
-            if (Email == email && Password == EncryptPassword(password))
+            //if (Email == email && Password == EncryptPassword(password))
+            //    return true;
+
+            if (Email == email)
                 return true;
 
             return false;

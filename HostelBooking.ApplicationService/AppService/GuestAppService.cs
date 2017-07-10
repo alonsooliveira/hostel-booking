@@ -32,6 +32,7 @@ namespace HostelBooking.ApplicationService.AppService
         public void Save(Guest guest)
         {
             _repository.Save(guest);
+            Commit();
         }
 
         public void Update(Guest guest)

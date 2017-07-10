@@ -19,9 +19,9 @@ namespace HostelBooking.Infra.Repositories
         public Guest Get(int id) => _context.Guests.FirstOrDefault(x => x.Id == id);
 
         public Guest GetByEmail(string email) => _context.Guests.FirstOrDefault(x => x.User.Email == email);
-        
-        public void Save(Guest guest) => _context.Entry(guest).State = EntityState.Added;
-        
+
+        public void Save(Guest guest) => _context.Guests.Add(guest);
+           
         public void Update(Guest guest) => _context.Entry(guest).State = EntityState.Modified;   
     }
 }

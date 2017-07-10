@@ -8,7 +8,7 @@ namespace HostelBooking.Domain.Entities
         public string Name { get; set; }
         public string Document { get; set; }
         public DateTime BirthDate { get; set; }
-        public int Genre { get; set; }
+        public bool Genre { get; set; }
         public User User { get; set; }
     }
 }
